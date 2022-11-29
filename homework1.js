@@ -47,8 +47,8 @@ if (userInfo.age< 18 && userInfo.studentstatus=='active'){
 //5.
 
 let array = [ 'watermelon', 'pear', 10, 45, 50, 'apple', 'ananas' ];
-for(i<0; i< array.length; i++)
-  if(typeof(array[i])==String){
+for(let i in array)
+  if ( typeof array[i]=== "string"){
     console.log(array[i]);
   }
 
